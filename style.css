@@ -1,0 +1,25 @@
+body{
+    background-color: aqua !important;
+}
+
+.question{
+    min-height: 100vh;
+    background-color: aqua !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answercard:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.bg-danger, .bg-success{
+    color: white;
+}
